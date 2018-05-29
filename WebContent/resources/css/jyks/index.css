@@ -1,0 +1,56 @@
+*{margin: 0px;padding: 0px;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+html{-webkit-text-size-adjust:none;-moz-text-size-adjust: none;-ms-text-size-adjust:none;}
+ul,ol,li{list-style: none;}
+a,img{/*禁用长按页面时的弹出菜单(iOS下有效)*/-webkit-touch-callout:none;}
+a{/*取消a标签手指按下时出现的黑色遮罩层*/-webkit-tap-highlight-color:transparent;text-decoration: none;color: #333333;cursor: pointer;}
+img{vertical-align:top;border:none}
+label{font-weight: normal;}
+select,button,textarea{-webkit-appearance: none;}
+input:focus,select:focus{outline: none;}
+select{/*很关键：将默认的select选择框样式清除*/appearance:none;-moz-appearance:none;-webkit-appearance:none;background-color: #FFFFFF;}
+select::-ms-expand {/*清除ie的默认选择框样式清除，隐藏下拉箭头*/ display: none; }
+
+/*在线测试-start*/
+.test-body{background-color: #FFFFFF;min-width:7rem;}
+.test-wrap{border: 0px solid red;width:90%;margin: auto;}
+.header-wrap{border:0px solid blue;width: 100%;overflow: hidden;}
+.testheader-title{border:0px solid red;width: 100%;height: 2.5rem;text-align: center;line-height: 2.5rem;font-family: "微软雅黑";font-size: 0.836rem;color: #19a8ee;}
+.testheader-nav{border-bottom: 1px dashed #e1e1e1;width: 100%;/*height: 1.5rem;*/line-height: 1.5rem;font-family: "微软雅黑";font-size: 0.528rem;color: #333333;padding-left: 0.3rem;}
+.testContent-wrap{border:0px solid red;width: 100%;min-height: 4rem;}
+.testContent-ul{border:0px solid red;width: 100%;}
+.testContent-li{border: 0px solid red;width: 100%;min-height: 3rem;}
+.testContent-exam{border:0px solid red;width: 100%;position: relative;}
+.testContent-title{border:0px solid red;width: 100%;/*height:1.2rem;*/line-height: 1.2rem;font-family: "微软雅黑";font-size: 0.5rem;padding-left: 0.5rem;}
+.testContent-answer{border: 0px solid red;width: 100%;min-height: 3rem;overflow: hidden;}
+.testAnswer-list{border-bottom: 1px solid #E1E1E1;width: 100%;/*height: 1.5rem;*/}
+.testAnswer-label{border:0px solid red;width: 100%;/*height: 1.5rem;*/display: inline-block;cursor: pointer;overflow: hidden;}
+.testAnswer-labelleft,.testAnswer-labelright{border:0px solid red;display: inline-block;min-height: 1.5rem;float: left;position: relative;}
+.testAnswer-labelleft{width: 10%;}
+.testAnswer-labelright{width: 90%;font-family: "微软雅黑";line-height: 1.5rem;font-size: 0.4rem;color: #333333;}
+.radiostyle{border:0px solid red;display: inline-block;width: 0.4rem;height: 0.4rem;position: absolute;top: 0.55rem;right: 0.4rem;}
+.footer-wrap{border: 1px solid transparent;width: 100%;height: 2rem;margin-top:1rem;}
+.footerWrap-content{border: 1px solid transparent;width: 100%;height:2rem;position: relative;} 
+.stepsbtn{border: 1px solid #E1E1E1;width:3.0rem;height: 1.2rem;font-family: "微软雅黑";font-size: 0.5rem;color: #FFFFFF;text-align: center;line-height: 1.2rem;position: absolute;cursor: pointer;background-color: #19A8EE;border-radius: 0.2rem;}
+.prev{top:0.4rem;left:10%;}
+.next{top: 0.4rem;right:10%;}
+.endbtn{border: 1px solid #E1E1E1;width:3.0rem;height: 1.2rem;cursor: pointer;line-height: 1.2rem;text-align: center;font-family: "微软雅黑";font-size: 0.5rem;color: #FFFFFF;margin:0.4rem auto;background-color: #19A8EE;border-radius: 0.2rem;}
+/*输入项*/
+.examineeWrap{border: 0px solid red;width:100%;margin: auto;}
+.examineeBasic-information{border: 0px solid red;width: 100%;}
+.examineeBasic-li{border-bottom: 0px solid #E1E1E1;width: 100%;height: 1.98rem;}
+.examineeBasic-liLeft,.examineeBasic-liRight{border: 0px solid red;display: inline-block;float: left;height: 1.98rem;}
+.examineeBasic-liLeft{width: 20%;font-family: "微软雅黑";font-size: 0.6rem;color: #333333;line-height: 1.98rem;text-align: right;padding-right: 0.3rem;}
+.examineeBasic-liRight{width: 80%;}
+.examineenameInput,.examineeidInput,.examineephoneInput{border:0px solid red;width: 100%;height: 1.98rem;font-family: "微软雅黑";font-size: 0.6rem;color: #333333;line-height: 1.98rem;padding-left: 0.3rem;}
+.examineenameInput:focus,.examineeidInput:focus,.examineephoneInput:focus{outline: none;}
+.countydistrict,.examineecenterschool{border:0px solid red;width: 100%;height: 1.9rem;font-family: "微软雅黑";font-size: 0.6rem;color: #333333;line-height: 1.9rem;padding-left: 0.3rem;}
+.examineeSubmit{border:0px solid red;width: 70%;height: 1.8rem;margin:0.09rem auto;border-radius: 0.3rem;background-color: #19A8EE;color: #FFFFFF;font-family: "微软雅黑";font-size: 0.8rem;text-align: center;line-height: 1.8rem;}
+.examineeButton{margin-top: 2rem;}
+.line{border-bottom: 1px dashed #E1E1E1;width: 90%;margin: auto;}
+/*显示成绩*/
+.gradeWrap{border: 0px solid red;width: 100%;height:14rem;}
+.gradeWrap-outline{border: 1px solid #E1E1E1;width: 80%;margin: auto;margin-top: 2rem;}
+.gradeWrap-text{border: 0px solid red;width: 100%;height: 2rem;margin-top: 1rem;font-family: "微软雅黑";font-size: 0.8rem;text-align: center;line-height: 2rem;color: #333333;}
+.gradeWrap-score{border: 0px solid red;width:100%;height: 3rem;font-family: "微软雅黑";font-size: 1.6rem;color: #19A8EE;text-align: center;line-height: 3rem;margin-bottom: 2rem;}
+/*在线测试-end*/
+
